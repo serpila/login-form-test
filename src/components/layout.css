@@ -1,0 +1,26 @@
+body {
+  min-width: 600px;
+}
+header {
+  padding: 1rem 2rem;
+  background: rgb(143, 74, 137);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+label {
+  text-align: left;
+}
+.content-section {
+  display: flex;
+  justify-content: stretch;
+  min-height: 50vh;
+  margin-top: 3%;
+}
+
+form {
+  margin: auto;
+  min-width: 400px;
+}
