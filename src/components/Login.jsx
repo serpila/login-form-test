@@ -115,7 +115,11 @@ export default function Login() {
           value={form.email}
           invalid={errors.email}
         />
+<<<<<<< HEAD
         {errors.email && <FormFeedback data-cy="email-error">{errorMessages.email}</FormFeedback>}
+=======
+        {errors.email && <FormFeedback>{errorMessages.email}</FormFeedback>}
+>>>>>>> d7e65c85c8065f8b2c49b31edc8eb249c2cfe5fd
       </FormGroup>
       <FormGroup className='text-start'>
         <Label for="examplePassword">Password</Label>
@@ -129,7 +133,11 @@ export default function Login() {
           invalid={errors.password}
         />
         {errors.password && (
+<<<<<<< HEAD
           <FormFeedback data-cy="password-error">{errorMessages.password}</FormFeedback>
+=======
+          <FormFeedback>{errorMessages.password}</FormFeedback>
+>>>>>>> d7e65c85c8065f8b2c49b31edc8eb249c2cfe5fd
         )}
       </FormGroup>
       <FormGroup check>
@@ -146,7 +154,11 @@ export default function Login() {
         </Label>
       </FormGroup>
       <FormGroup className="text-center p-4">
+<<<<<<< HEAD
         <Button type="submit" color="primary" disabled={!isValid}>
+=======
+        <Button color="primary" disabled={!isValid}>
+>>>>>>> d7e65c85c8065f8b2c49b31edc8eb249c2cfe5fd
           Sign In
         </Button>
       </FormGroup>

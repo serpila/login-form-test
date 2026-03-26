@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 describe('login formu testi', () => {
   beforeEach(() => {
     cy.visit('http://localhost:5173/')
@@ -30,4 +31,10 @@ it("Email ve password yanlış girildiğinde hata mesajları görünür ve buton
   cy.get('button[type="submit"]').should("be.disabled");
 })
 
+=======
+describe('template spec', () => {
+  it('passes', () => {
+    cy.visit('https://example.cypress.io')
+  })
+>>>>>>> d7e65c85c8065f8b2c49b31edc8eb249c2cfe5fd
 })
